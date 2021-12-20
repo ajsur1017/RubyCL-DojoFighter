@@ -4,7 +4,7 @@ class FIGHTER
         @defense = defense
         @strength = strength
         @luck = luck
-        @life = rand(100)
+        @life = rand(80..100)
     end
     def name
         return @name
